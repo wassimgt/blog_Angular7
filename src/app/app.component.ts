@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'blogapp';
+  Posts = [{title: 'post one', content: 'salut openclassroom............................', loveit: 3 } ,
+   {title: 'post two', content: 'salut openclassroom 2..........................................', loveit: 4 },
+   {title: 'post three', content: 'salut openclassroom 3...........................................', loveit: 0 }
+  ];
+  constructor() { }
 }
